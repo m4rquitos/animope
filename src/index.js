@@ -16,6 +16,9 @@ app.set('views', join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 app.use(indexRoutes)
 
+app.use(indexRoutes)
+app.use(express.static(join(__dirname,'public')))
+
 app.set("views")
 
 app.get('/',(req,res) => res.render('index'))
