@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+video{
+    width: 80rem;
+    height: 70vh;
+}
