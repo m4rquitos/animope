@@ -1,8 +1,9 @@
 import { Router } from "express"
 const router = Router()
 
-router.get('/',(req,res) => res.render('index', { title: 'Este es el index'}))
-router.get('/about',(req,res) => res.render('about', { title: 'Este es el about'}))
-router.get('/contact',(req,res) => res.render('contact', { title: 'Este es el contact'}))
+router.get('/',(req,res) => res.render('index', { title: 'Principal'}))
+router.get('/exp',(req,res) => res.render('exp', { title: 'Experiencia'}))
+router.get('/tools',(req,res) => res.render('tools', { title: 'Herramientas'}))
+router.get('/contact',(req,res) => res.render('contact', { title: 'Contactenos'}))
 
 export default router

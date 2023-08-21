@@ -1,6 +1,8 @@
 body{
     background-color: black;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
 }
 
 video{

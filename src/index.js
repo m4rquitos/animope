@@ -22,8 +22,9 @@ app.use(express.static(join(__dirname,'public')))
 app.set("views")
 
 app.get('/',(req,res) => res.render('index'))
-app.get('/about',(req,res) => res.render('about'))
+app.get('/exp',(req,res) => res.render('exp'))
+app.get('/tools',(req,res) => res.render('tools'))
 app.get('/contact',(req,res) => res.render('contact'))
 
-app.listen(3000)
+app.listen(5000)
 console.log("Server is listening on port", 5000)
