@@ -8,6 +8,55 @@
 </head>
 <body>
     <%- include ('partials/navigation') %>
-    
+    <section class="container-about text-center py-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="container-text d-flex flex-column align-items-center justify-content-center my-4" style="max-width: 800px;">
+          <h2><i class="fas fa-tools"></i> Herramientas para el Futuro</h2>
+          <p class="px-4 px-md-10">En Animope, no solo seguimos las tendencias, las creamos. Utilizamos una variedad de herramientas y tecnologías de última 
+            generación para dar vida a tus ideas. Desde software de renderización 3D de última generación hasta la creación de mundos virtuales en el metaverso, nuestras herramientas están a la altura de tu visión.</p>
+          <ul class="list-unstyled px-4 px-md-10">
+            <li><a href="https://www.blender.org/" style="font-weight: bold; font-size: 18px; color: white; text-decoration: underline;">Software de Renderización 3D (Blender)</a></li>
+            <li><a target="_blank" href="https://decentraland.org/" style="font-weight: bold; font-size: 18px; color: white; text-decoration: underline;">Creación de Experiencias en el Metaverso</a></li>
+            <li><a target="_blank" href="https://unity.com/" style="font-weight: bold; font-size: 18px; color: white; text-decoration: underline;">Plataformas de Realidad Virtual y Aumentada</a></li>
+            <li><a target="_blank" href="https://www.adobe.com/products/premiere.html" style="font-weight: bold; font-size: 18px; color: white; text-decoration: underline;">Herramientas de Edición de Video y Audio</a></li>
+            <li><a target="_blank" href="https://www.ultraleap.com/leap-motion/" style="font-weight: bold; font-size: 18px; color: white; text-decoration: underline;">Tecnologías de Interacción Innovadoras</a></li>
+          </ul>
+        </div>
+        <div class="container-text d-flex flex-column align-items-center justify-content-center my-4" style="max-width: 800px;">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/img/logo-bl.png" class="d-block w-100" alt="Blender" style="height: 400px;">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/decenlo.png" class="d-block w-100" alt="Decentraland" style="height: 400px;">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/adobe-logo.png" class="d-block w-100" alt="Adobe" style="height: 400px;">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/unity.png" class="d-block w-100" alt="Unity" style="height: 400px;">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/ultra.png" class="d-block w-100" alt="Ultraleap" style="height: 400px;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
 </body>
 </html>

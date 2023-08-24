@@ -9,3 +9,32 @@ video{
     width: 80rem;
     height: 70vh;
 }
+
+/* Estilos para el formulario de contacto */
+.container-form {
+    background: rgba(186, 186, 187, 0.149);
+    border-radius: 15px;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container-form .form-control,
+.container-form .form-control:focus {
+    background: rgba(186, 186, 187, 0.149);
+    color: white;
+}
+
+#contactForm {
+    width: 250px;
+    height: 400px;
+}
+
+/* Estilos para el contenido del modal */
+.modal-content {
+    background: linear-gradient(rgba(29, 28, 28, 0.898), rgba(44, 42, 42, 0.881));
+    color: white;
+}
